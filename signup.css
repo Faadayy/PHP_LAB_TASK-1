@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif;
+}
+.alpha_top{
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.9),rgba(4, 9, 30, 0.4)),url(pictures/home1.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+nav{
+  display: flex;
+  padding: 2% 6%;;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img{
+  width: 200px;
+}
+
+.alpha_text {
+  display: inline-block;
+  width: 90%;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.alpha_text h1{
+  font-size: 40px;
+}
+
+.alpha_text p{
+  margin: 10px 0px 40px;
+  font-size: 15px;
+
+}
+.alpha_button{
+  text-decoration: none;
+  color: white;
+  border: 2px solid #ffff;
+  padding:12px 34px;
+  width: 19%;
+  font-size: 22px;
+}
+
+.alpha_button:hover{
+  color: black;
+  background: powderblue;
+  transition: 0.9s;
+  font-weight: bold;
+}
+
+nav .fa{
+  display: none;
+}
+}
+html,
+body {
+  height: 100%;
+  background-color: powderblue;
+}
+
+body {
+  background-color: powderblue;
+  justify-content: center;
+
+
+}
+.navbar-brand img{
+  height: 80px;
+  width: 100%;
+  padding-left: 30px;
+}
+
+.form-signin {
+  width: 100%;
+  padding: 15px;
+  margin: 0 auto;
+
+}
+.form-signin input {
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="name"],.form-signin input[type="number"] {
+  padding: 7px;
+}
+
+
+.form-signin input[type="email"] {
+  padding: 7px;
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  padding: 7px;
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.form-signin input[type="radio"] {
+  margin: 12px;
+}
